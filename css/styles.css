@@ -1,11 +1,141 @@
 /* Your Website Styles */
+
+/* Color palette: 
+	green: #1d5558;
+	dark blue: #274f77;
+	sand: #d4b17d;
+	dark red: #95314e;
+	red: #34b6d;
+	yellow: #e5dfaf;
+	light blue: #63a1cb;
+*/
 body {
-	background: #eee;
+	background: url("../img/green-fib/ers.png") #274f77;
+	color: #e5dfaf;
 }
 
 
 div {
-	margin-top: -60px;	x 
+	margin-top: -60px;
+}
+
+img	{
+	width: 320px;
+	border-radius: 100%;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4.5em;
+	font-weight: 800;
+	color: #e5dfaf;
+	margin-left: 20px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	padding: 20px 0px;
+	width: 1000px;
+	background: #95314e;
+	margin: 30px 0 0 0;
+	text-indent: 20px;
+}
+
+h3	{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.875em;
+	font-weight: 700;
+	text-indent: 85px;
+}
+
+.contact {
+	text-indent: 20px;
+	background: #95314e;
+}
+
+h3.uni {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: normal;
+	text-indent: 85px;
+}
+
+h3.uni > p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.25em;
+	font-style: italic;
+	font-weight: normal;
+	text-indent: 40px;
+	margin-top: 0px;
+}
+
+aside > h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+ul {
+	list-style: none;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.5em; 
+	padding: 0;
+}
+
+li {
+	font-family: 'Gentium Book Basic', serif;
+	font-style: italic;	
+	text-indent: 110px;
+}
+
+h3.contact ul li {
+	font-family: 'Gentium Book Basic', serif;
+	font-style: italic;	
+	text-indent: 40px;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Gentium Book Basic', serif;
+	color: #e5dfaf;
+}
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1.25em;
+	font-style: italic;
+	margin-left: 85px;
+}
+
+li > p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: normal;
+	text-indent: 110px;
+	margin-top: 0px;
+}
+
+div > ul {
+	text-indent: 15px;
+}
+
+#head {
+	background: #95314e;
+	height: 150px; 
+	margin-bottom: 40px;
+}
+
+.dimas,
+.ndesign {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	font-style: normal;
+	text-indent: 85px;
 }
 
 
